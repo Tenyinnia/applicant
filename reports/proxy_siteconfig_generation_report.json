@@ -1,0 +1,59 @@
+{
+  "generated_at": "2025-12-23T19:17:00.306687",
+  "scrapeops_proxy_enabled": true,
+  "total_websites_processed": 20,
+  "successful_configs": 12,
+  "failed_configs": 8,
+  "success_rate": 60.0,
+  "regional_coverage": {
+    "global": 11,
+    "germany": 1
+  },
+  "specialization_coverage": {
+    "general": 2,
+    "tech": 1,
+    "data_science": 1,
+    "road_transport": 1,
+    "remote_work": 4,
+    "creative": 1,
+    "finance": 1,
+    "nonprofit": 1
+  },
+  "confidence_scores": [
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+  ],
+  "blocking_risk_analysis": {
+    "medium": 1,
+    "low": 11
+  },
+  "proxy_effectiveness": {},
+  "failed_sites": [
+    "https://www.simplyhired.com",
+    "https://www.ziprecruiter.ie/jobs/search",
+    "https://www.careerjet.com",
+    "https://talent.com",
+    "https://www.higheredjobs.com/search/today.cfm",
+    "https://getwork.com",
+    "https://www.seek.com.au",
+    "https://www.idealist.org/en/jobs"
+  ],
+  "recommendations": [
+    "Consider upgrading ScrapeOps plan for higher request limits",
+    "Implement CAPTCHA solving for persistently blocked sites",
+    "Add request rate limiting and randomization",
+    "Manual review recommended for low-confidence selectors",
+    "Consider site-specific custom selectors"
+  ],
+  "average_confidence_score": 0.29999999999999993
+}

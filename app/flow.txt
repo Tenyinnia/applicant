@@ -1,0 +1,51 @@
+Frontend (Web / Mobile)
+│
+│  Upload CV, preferences
+│
+▼
+FastAPI Backend
+│
+├── CV Parser Agent
+│   ├── Extract skills
+│   ├── Experience
+│   └── Keywords
+│
+├── Job Scraper Agent
+│   ├── Scrape public job boards
+│   ├── APIs (where available)
+│   └── Company career pages
+│
+├── Matching Agent (AI)
+│   ├── CV ↔ Job similarity
+│   ├── Tech stack scoring
+│   └── Ranking
+│
+├── Application Generator Agent
+│   ├── Tailored CV
+│   ├── Cover letter
+│   └── Answers to common questions
+│
+├── Apply Assistant
+│   ├── Redirect links
+│   ├── Autofill suggestions
+│   └── Browser extension / user confirmation
+│
+└── Database
+    ├── Users
+    ├── CVs
+    ├── Jobs
+    └── Applications
+
+#https://console.firebase.google.com/?pli=1
+
+#python -m spacy download en_core_web_sm
+
+
+┌-------------┐         ┌---------------┐        ┌--------------┐
+│  Scheduler  │-------▶ | Queue/Pool    │------▶│  Worker Pod  │
+│  (who next?)│  json   │  (board,page) │  task  │  (parse+DB)  │
+└-------------┘         └---------------┘        └--------------┘
+       │                        │                       │
+   Celery Beat            Redis/RQ              20-50 async
+   every 30 s                                      green-threads
+   

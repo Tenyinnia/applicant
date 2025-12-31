@@ -1,0 +1,13 @@
+domain,base_url,regional_focus,specialization,blocking_risk,proxy_recommended,total_jobs_detected,confidence_score,js_required,container_selector,title_selector,company_selector,proxy_used
+adzuna.com,https://www.adzuna.com,global,general,medium,True,2,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+builtin.com,https://builtin.com,global,tech,low,True,2,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+datasciencejobs.com,https://datasciencejobs.com/search,global,data_science,low,True,20,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+roaddogjobs.com,https://www.roaddogjobs.com/search,global,road_transport,low,True,100,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+remoteok.com,https://remoteok.com,global,remote_work,low,True,9,0.30,False,.job,"h2, h3, a",[class*='company'],False
+weworkremotely.com,https://weworkremotely.com,global,remote_work,low,True,11,0.30,False,.jobs,"h2, h3, a",[class*='company'],False
+4dayweek.io,https://4dayweek.io,global,general,low,True,168,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+remote.co,https://remote.co/remote-jobs,global,remote_work,low,True,63,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+opentoworkremote.com,https://www.opentoworkremote.com,global,remote_work,low,True,7,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+dribbble.com,https://dribbble.com/jobs,global,creative,low,True,501,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+efinancialcareers.com,https://www.efinancialcareers.com,global,finance,low,True,25,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False
+devex.com,https://www.devex.com/jobs/search,germany,nonprofit,low,True,14,0.30,False,"[class*=""job""]","h2, h3, a",[class*='company'],False

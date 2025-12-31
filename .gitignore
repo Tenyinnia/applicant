@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# VS Code
+.vscode/
+
+#texts
+flow
+
+# Alembic
+alembic/versions/*.pyc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+#fireabse
+app/config/firebase_admin.json
+app/config/firebase.py
+uploaded_files
+proxy_siteconfigs
